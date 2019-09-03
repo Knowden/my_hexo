@@ -55,14 +55,19 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Nocturne&#39;s Blog">
-<meta property="og:url" content="https://knowden.github.io/my_hexo/categories/Server/index.html">
+  <meta name="description" content="新搞了这个博客，试试效果咋样  今天花了点时间好好研究了一下MVC和MVVM两种设计模式，以及他们在前后端的使用，还是挺有收获的，所以做一下记录 MVC模式 MVC模式就是传统的模型、控制器、视图模式  重点说一说这个模式在前端和后端的使用吧 这个设计模式主要是使用在JS脚本的开发中，目的是为了让JS和HTML充分解耦，力争在HTML代码中不要出现JS代码 简单说一下这三个部件的作用：  控制器">
+<meta name="keywords" content="Web开发">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MVC与MVVM对比解析">
+<meta property="og:url" content="https://knowden.github.io/my_hexo/2019/09/03/MVC与MVVM对比解析/index.html">
 <meta property="og:site_name" content="Nocturne&#39;s Blog">
+<meta property="og:description" content="新搞了这个博客，试试效果咋样  今天花了点时间好好研究了一下MVC和MVVM两种设计模式，以及他们在前后端的使用，还是挺有收获的，所以做一下记录 MVC模式 MVC模式就是传统的模型、控制器、视图模式  重点说一说这个模式在前端和后端的使用吧 这个设计模式主要是使用在JS脚本的开发中，目的是为了让JS和HTML充分解耦，力争在HTML代码中不要出现JS代码 简单说一下这三个部件的作用：  控制器">
 <meta property="og:locale" content="ch-zn">
+<meta property="og:updated_time" content="2019-09-03T08:35:12.504Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nocturne&#39;s Blog">
-  <link rel="canonical" href="https://knowden.github.io/my_hexo/categories/Server/">
+<meta name="twitter:title" content="MVC与MVVM对比解析">
+<meta name="twitter:description" content="新搞了这个博客，试试效果咋样  今天花了点时间好好研究了一下MVC和MVVM两种设计模式，以及他们在前后端的使用，还是挺有收获的，所以做一下记录 MVC模式 MVC模式就是传统的模型、控制器、视图模式  重点说一说这个模式在前端和后端的使用吧 这个设计模式主要是使用在JS脚本的开发中，目的是为了让JS和HTML充分解耦，力争在HTML代码中不要出现JS代码 简单说一下这三个部件的作用：  控制器">
+  <link rel="canonical" href="https://knowden.github.io/my_hexo/2019/09/03/MVC与MVVM对比解析/">
 
 
 <script id="page-configurations">
@@ -70,13 +75,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>分类: Server | Nocturne's Blog</title>
+  <title>MVC与MVVM对比解析 | Nocturne's Blog</title>
   
 
 
@@ -213,110 +218,157 @@
         <div class="content-wrap">
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block category">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">Server<small>分类</small>
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="https://knowden.github.io/my_hexo/my_hexo/2019/09/03/MVC与MVVM对比解析/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nocturne">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/my_hexo/images/queue.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nocturne's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">MVC与MVVM对比解析
+
+          
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-03 16:17:50 / 修改时间：16:35:12" itemprop="dateCreated datePublished" datetime="2019-09-03T16:17:50+08:00">2019-09-03</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/my_hexo/categories/Server/" itemprop="url" rel="index"><span itemprop="name">Server</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+        <blockquote>
+<p>新搞了这个博客，试试效果咋样</p>
+</blockquote>
+<p>今天花了点时间好好研究了一下MVC和MVVM两种设计模式，以及他们在前后端的使用，还是挺有收获的，所以做一下记录</p>
+<h2 id="MVC模式"><a href="#MVC模式" class="headerlink" title="MVC模式"></a>MVC模式</h2><blockquote>
+<p>MVC模式就是传统的模型、控制器、视图模式</p>
+</blockquote>
+<p>重点说一说这个模式在前端和后端的使用吧</p>
+<p>这个设计模式主要是使用在JS脚本的开发中，目的是为了让JS和HTML充分解耦，力争在HTML代码中不要出现JS代码</p>
+<p>简单说一下这三个部件的作用：</p>
+<ol>
+<li><p>控制器：主要作用是控制整个逻辑的执行流程，像是一个指挥官，也正如其名，控制器</p>
+</li>
+<li><p>模型：模型是数据的来源，模型的功能是获取数据和提供数据给控制器，由控制器将其发送给视图</p>
+</li>
+<li><p>视图：很简单，就是我们看到的视图，通过对DOM的操作，可以根据模型提供的数据动态修改HTML代码（注意，这和服务器上跑的模板引擎不是一个东西，这里用的是纯原生JS功能）</p>
+</li>
+</ol>
+<p>清晰了这三个概念，MVC的模式在前端的使用也就清晰了</p>
+<ul>
+<li><p>首先，模型获取了数据，调用控制器的某个方法，通知控制器自己的数据发生了变化</p>
+</li>
+<li><p>然后，控制器按程序逻辑将模型传给相应的视图</p>
+</li>
+<li><p>最后，视图层的代码根据传入的模型，对HTML元素进行动态修改</p>
+</li>
+</ul>
+<p>以上就是MVC在前端的执行流程</p>
+<p>下面说一下MVC在后端中的使用</p>
+<p>跟在前端类似，这三层执行的工作基本不变，只不过视图层往往使用模板引擎直接在服务器渲染HTML，这样加大了服务器的负担，不是很好的设计，前后端的耦合度也会较高，以后的文章中将介绍的前后端分离技术会解决这个问题</p>
+<h2 id="MVVM模式"><a href="#MVVM模式" class="headerlink" title="MVVM模式"></a>MVVM模式</h2><p>这个模式仅用于前端，代表框架有Vue，主要解决的是MVC中依然存在视图直接操作模型的情况</p>
+<p>这个模式的核心是数据的双向绑定，也就是视图中的DOM和模型中的数据，通过中间的ModelView来进行了一个双向绑定</p>
+<p>当用户操作界面引发DOM变化的时候，模型中对应的数据会发生变化</p>
+<p>当模型中的数据发生变化的时候，视图中的DOM对象会同步变化</p>
+<p>这样之前MVC模式中大量的DOM更新操作和数据同步操作都被省去了，耦合度大大降低</p>
 
-  
-  
+    </div>
 
-  
     
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
+    
+    
         
-          <a class="post-title-link" href="/my_hexo/2019/09/03/MVC与MVVM对比解析/" itemprop="url">
-            <span itemprop="name">MVC与MVVM对比解析</span>
-          </a>
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/my_hexo/tags/Web开发/" rel="tag"># Web开发</a>
+            
+          </div>
         
-      </h2>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-03T16:17:50+08:00"
-              content="2019-09-03">
-          09-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-          <a class="post-title-link" href="/my_hexo/2019/09/02/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/my_hexo/2019/09/02/firstBlog/" rel="next" title="firstBlog">
+                  <i class="fa fa-chevron-left"></i> firstBlog
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-02T22:08:40+08:00"
-              content="2019-09-02">
-          09-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    </div>
+      </footer>
+    
   </div>
   
   
   
+  </article>
 
-  
-
+  </div>
 
 
           </div>
@@ -335,6 +387,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -347,6 +404,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#MVC模式"><span class="nav-number">1.</span> <span class="nav-text">MVC模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MVVM模式"><span class="nav-number">2.</span> <span class="nav-text">MVVM模式</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
